@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css?family=Clicker+Script');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans';)
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	
+}
+
+/*HEADER*/
+header {padding:10rem 0;font-family: 'Clicker Script', cursive;color:#487789;background:#f7f0e8;}
+header .container .row .col h1 {font-size:7rem;padding:5rem 0;text-align: center;}
+header .container .row .col h2 {font-size:3rem;padding:1rem 0;text-align: center;}
+header .container .row .col h2:nth-child(3) {}
+
+/*NAVBAR*/
+section#menu nav.navbar {background-color:#f7f0e8; }
+section#menu nav.navbar div#navbarNav ul.navbar-nav {margin: 0 auto;font-size:1.2rem;padding: 1rem 0;font-weight:600;}
+section#menu nav.navbar div#navbarNav ul.navbar-nav li.nav-item {padding: 0 2rem;position:relative;}
+section#menu nav.navbar div#navbarNav ul.navbar-nav li.nav-item:before {
+content: ''; position: absolute;top: 1rem;right: 0;left: -.5rem;height: 1rem;width: 1rem;background: #658894;border: 0;border-radius: 50%;bottom: 0;}
+section#menu nav.navbar div#navbarNav ul.navbar-nav li.nav-item:first-child:before {display: none;}
+section#menu nav.navbar div#navbarNav ul.navbar-nav li.nav-item a.nav-link {color: #000;}
+section#menu nav.navbar div#navbarNav ul.navbar-nav li.nav-item a.nav-link:hover {color:#F3B7BF;}
+
+
+
+/*couple_descr*/
+section#couple_descr {padding:5rem 0;color:#487789;background:#f7f0e8; color:#264854;}
+section#couple_descr .container h2 { padding: 3rem 0; font-weight: 600;font-size: 2.5rem;text-align: center;}
+section#couple_descr .container .row .col .avatar {text-align: center;}
+section#couple_descr .container .row .col .avatar img.rounded-circle {max-width: 100%;max-height:14rem;border: .5rem solid #fff;}
+section#couple_descr .container .row .col h3 {;padding: 3rem 0;font-weight: 600;font-size: 2rem;text-align: center;}
+section#couple_descr .container .row .col p {text-align: justify;font-weight: 600; width: 20rem;margin: 0 auto;font-size: .9rem;line-height: 2rem;}
+
+
+/*STORY*/
+section#story {padding: 5rem 0;text-align: center;color:#264854;background:#f7f0e8;}
+section#story .container .row {}
+section#story .container .row .col {}
+section#story .container .row .col h2 {font-weight: 600;padding: 5rem 0;font-size: 2.5rem;}
+section#story .container .row .col p {text-align: justify;font-weight: 600;line-height:2rem;}
+
+/*GALLERY-CAROUSEL*/
+section#gallery {padding:5rem 0;color:#264854;background:#f7f0e8}
+section#gallery .container h2 { padding: 3rem 0; font-weight: 600;font-size: 2.5rem;text-align: center;}
+section#gallery .container .carousel-item {}
+section#gallery .container .carousel-item .img-fluid {background:#5f001b;margin: 0 3rem;}
+section#gallery .container .carousel-control {padding: 3rem 0;}
+
+/*GUEST*/
+section#guest {padding:5rem 0;background:#fff; text-align: center;color:#264854;}
+section#guest .container h2 { padding: 3rem 0; font-weight: 600;font-size: 2.5rem;text-align: center;}
+section#guest .container .row .col h3 {padding: 1rem 0; font-weight: 600;font-size: 2rem;text-align: center;}
+section#guest .container .row .col p {font-weight:600;font-size:1.4rem;}
+section#guest .container .row .col .avatar {text-align: center;}
+section#guest .container .row .col .avatar img.rounded-circle {max-width: 100%;max-height:10rem;}
+
+/*CEREMONY*/
+
+section#ceremony {padding:20rem 0 5rem;text-align: center;color:#264854;background:#f7f0e8;position: relative;}
+section#ceremony:before{
+content: ''; position: absolute;top: 0;right: 0;left: 0;height: 100%;width: 100%;background: url('2.png') no-repeat;border: 0;bottom: 0;}
+section#ceremony .container h2 {padding: 3rem 0; font-weight: 600;font-size: 2.5rem;text-align: center;position: relative;}
+
+section#ceremony .container .row .col img {}
+section#ceremony .container .row .col h3 {padding: 2rem 0; font-weight: 600;font-size: 2rem;text-align: center;}
+
+
+
