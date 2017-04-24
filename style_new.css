@@ -8,15 +8,14 @@ body {
 
 /*HEADER*/
 header:before {
-	content: ''; position: absolute;top: 0;right: 0;left: 0;background: url('1.png') no-repeat center top;bottom: 0;background-size: 70%;
-}
+	content: ''; position: absolute;top: 0;right: 0;left: 0;background: url('1.png') no-repeat center top;bottom: 0;background-size: 70%;}
 header {padding:20rem 0 5rem;font-family: 'Clicker Script', cursive;color:#487789;background:#f7f0e8;position: relative;}
 header .container .row .col h1 {font-size:7rem;padding:5rem 0;text-align: center;}
 header .container .row .col h2 {font-size:3rem;padding:1rem 0;text-align: center;}
 header .container .row .col h2:nth-child(3) {}
 
 /*NAVBAR*/
-section#menu nav.navbar {background-color:#f7f0e8; }
+section#menu nav.navbar {background-color:#f7f0e8;}
 section#menu nav.navbar div#navbarNav ul.navbar-nav {margin: 0 auto;font-size:1.2rem;padding: 1rem 0;font-weight:600;}
 section#menu nav.navbar div#navbarNav ul.navbar-nav li.nav-item {padding: 0 2rem;position:relative;}
 section#menu nav.navbar div#navbarNav ul.navbar-nav li.nav-item:before {
@@ -37,7 +36,7 @@ section#couple_descr .container .row .col p {text-align: justify;font-weight: 60
 
 
 /*STORY*/
-section#story {padding: 5rem 0;text-align: center;color:#264854;background:#f7f0e8;}
+section#story {padding: 5rem 0 0;text-align: center;color:#264854;background:#f7f0e8;}
 section#story:after {}
 section#story .container .row {}
 section#story .container .row .col {}
@@ -45,7 +44,7 @@ section#story .container .row .col h2 {font-weight: 600;padding: 5rem 0;font-siz
 section#story .container .row .col p {text-align: justify;font-weight: 600;line-height:2rem;}
 
 /*GALLERY-CAROUSEL*/
-section#gallery {padding:15rem 0 5rem;color:#264854;background:#f7f0e8;position:relative;}
+section#gallery {padding:20rem 0 0;color:#264854;background:#f7f0e8;position:relative;}
 section#gallery:before {content: ''; position: absolute;top: 0;right: 0;left: 0;background: url('2.png') no-repeat center top;bottom: 0;}
 section#gallery .container h2 { padding: 3rem 0; font-weight: 600;font-size: 2.5rem;text-align: center;}
 section#gallery .container .carousel-item {}
@@ -64,7 +63,7 @@ section#guest .container .row .col .avatar img.rounded-circle {max-width: 100%;m
 
 section#ceremony {padding:20rem 0 5rem;text-align: center;color:#264854;background:#f7f0e8;position: relative;}
 section#ceremony:before{
-content: ''; position: absolute;top: 0;right: 0;left: 0;background: url('2.png') no-repeat center top;bottom: 0;}
+content: ''; position: absolute;top: 4rem;right: 0;left: 0;background: url('3.png') no-repeat center top;bottom: 0;}
 section#ceremony .container h2 {padding: 3rem 0; font-weight: 600;font-size: 2.5rem;text-align: center;position: relative;}
 
 section#ceremony .container .row .col img {}
